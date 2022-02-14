@@ -1,0 +1,29 @@
+{
+	"paths":{
+		"collection": null,
+                "file":null,
+		"save_collection": "LFR_mu0.5"
+	},
+	"local_data": false,
+	"graph_param": {
+		"name": "LFR",
+		"param":{"my_graph":true, "settings":[{"n":1000, "tau1":3, "tau2": 1.5, "mu": 0.5, "average_degree": 10}]}
+	},
+	"ricciflow": {
+		"iterations": 100,
+		"step": 0.01,
+		"delta": 1e-6
+	},
+	"surgery_param": {
+		"name": "surgery",
+		"portion": 0.02,
+		"interval": 5
+	},
+	"viz_param":{
+		"png_size": [400, 400],
+		"gif_size": [200, 200]
+	}
+}
+
+
+

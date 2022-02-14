@@ -1,0 +1,25 @@
+{
+	"paths":{
+		"collection": null,
+                "file":null,
+		"save_collection": "SBM_0.45_12"
+	},
+	"local_data": false,
+	"graph_param": {
+		"name": "SBM",
+		"param":{"my_graph":true,"settings":[{"sizes":[250, 250], "probs":[[0.15, 0.0675],[0.0675, 0.15]]}]}
+	},
+	"ricciflow": {
+		"iterations": 50,
+		"step": 0.01,
+		"delta": 1e-6
+	},
+	"surgery_param": {
+		"name": "surgery",
+		"portion": 0.03,
+		"interval": 3
+	}
+}
+
+
+

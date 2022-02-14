@@ -1,0 +1,29 @@
+{
+	"paths":{
+		"collection": "football",
+                "file":"football.gml",
+		"save_collection": "football"
+	},
+	"local_data": true,
+	"graph_param": {
+		"name": "football",
+		"param":{"my_graph":false, "settings":[]}
+	},
+	"ricciflow": {
+		"iterations": 100,
+		"step": 0.01,
+		"delta": 1e-6
+	},
+	"surgery_param": {
+		"name": "surgery",
+		"portion": 0.03,
+		"interval": 3
+	},
+	"viz_param":{
+		"png_size": [400, 400],
+		"gif_size": [200, 200]
+	}
+}
+
+
+

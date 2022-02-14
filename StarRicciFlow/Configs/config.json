@@ -1,0 +1,25 @@
+{
+	"paths":{
+		"collection": null,
+                "file":null,
+		"save_collection": "karate_club_n"
+	},
+	"local_data": false,
+	"graph_param": {
+		"name": "karate_club_graph",
+		"param":{"my_graph":false,"settings":{}}
+	},
+	"ricciflow": {
+		"iterations": 100,
+		"step": 0.01,
+		"delta": 1e-6
+	},
+	"surgery_param": {
+		"name": "surgery_n",
+		"portion": 1,
+		"interval": 3
+	}
+}
+
+
+
