@@ -58,12 +58,10 @@ def main(argv=None):
 
     config = args[0]
     model_name = args[1]
-    print(config)
 
     ricciflow = DoRicciFlow(config, model_name)
 
     return ricciflow.process()
 
 if __name__ == "__main__":
-    print("hhhhhhh")
     sys.exit(main())
